@@ -1,0 +1,10 @@
+table = name is person,
+column_name = id primary , email non numable field
+
+we need find all dublicate emails
+
+=============================================
+select email, count(*) as email
+from person
+group by email
+having count(*) > 1
