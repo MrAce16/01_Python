@@ -10,7 +10,7 @@ class Solution(object):
 
 
 obj = Solution()
-obj.romanToInt('MCMXCIV')
+obj.romanToInt('MCMXC')
 
 
 
