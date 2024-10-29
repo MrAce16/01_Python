@@ -23,7 +23,7 @@ class Solution:
             if s1 == s2 :
                 if s1 not in commonstr:
                     commonstr = commonstr + s1
-        print(commonstr)
+        return commonstr
 
 
 str1 = "ABCABC"
