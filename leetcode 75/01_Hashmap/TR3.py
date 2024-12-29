@@ -6,10 +6,11 @@ str1 = "my name is raghunath jha"
 # word = [reverse.capitalize() for i in reverse]
 # print(word)
 
-# words = str1.split()
-# reverse_capitalize = [word[::-1].capitalize() for word in words]  # made mistake in capitalize "()""
-# output = " ".join(reverse_capitalize)
-# print(output)
+words = str1.split()
+reverse_capitalize = [word[::-1].capitalize() for word in words]  # made mistake in capitalize "()""
+print(reverse_capitalize)
+output = " ".join(reverse_capitalize)
+print(output)
 
 # words = str1.split()
 # word_count = {}
@@ -22,11 +23,11 @@ str1 = "my name is raghunath jha"
 # print(output)
 
 
-def output(str1,character_remove):
-    return "".join(char for char in str1 if char!=character_remove)
+# def output(str1,character_remove):
+#     return "".join(char for char in str1 if char!=character_remove)
 
-str1 = "my name is raghunath jha"
-character_remove = "a"
-result= output(str1,character_remove)
-print(result)
+# str1 = "my name is raghunath jha"
+# character_remove = "a"
+# result= output(str1,character_remove)
+# print(result)
 
